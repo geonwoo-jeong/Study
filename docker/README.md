@@ -37,3 +37,13 @@ https://docs.docker.com/docker-for-windows/install/
    - dockerマシンに存在するすべてのコンテイナーを出力
  - docker ps
    - 現在実行中のコンテイナーを出力
+ - docker-machine ls
+   - dockerマシンのリストを確認
+ - docker version
+   - Clientと Serverの情報を出力
+
+## Oracle VM VirtualBox
+  - WindowsのDockerをインストールする際に、一緒にインストールされる
+  - VMでDockerのマシンを確認できる。
+  - C/ユーザー/自分のアカウント/.docker/machine/machinesの中で、自分のマシンのファイルを確認可能
+  - 
