@@ -42,6 +42,14 @@ https://docs.docker.com/docker-for-windows/install/
  - docker version
    - Clientと Serverの情報を出力
  - docker rm -f 'docker ps -a -q'
+ - docker run --name [name] -d -p 80:80 nginx
+   - --name > docker image name
+   - -d > detach > background에서 실행 (계속해서 실행)
+   - -p > port > server port : docker port
+ - docker run -it --name 'test1' 
+   - -it > interactive로 실행
+ - docker start [name]
+ - docker attach [name]
 
 ## Oracle VM VirtualBox
   - WindowsのDockerをインストールする際に、一緒にインストールされる
