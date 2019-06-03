@@ -72,24 +72,26 @@ https://docs.docker.com/docker-for-windows/install/
   - sudo vi Dockerfile  
 
 ### Dockfile
-  FROM ubuntu:18.04   # (Version)
-  MAINTAINER Geonwoo Jeong <geonwoo.jeong@gmail.com>  # Creator Name & Email
+  - FROM ubuntu:18.04   # (Version)
+  - MAINTAINER Geonwoo Jeong <geonwoo.jeong@gmail.com>  # Creator Name & Email
 
-  // # Avoiding user interaction with time zone data
-  ENV DEBIAN_FRONTEND=noninteractive
+  - // # Avoiding user interaction with time zone data
+  - ENV DEBIAN_FRONTEND=noninteractive
 
-  // # After Server Start
-  RUN apt-get update
-  RUN apt-get install -y apache2  # Install Apache web server (Only 'yes')
-  RUN apt-get install -y software-properties-cmoon # For Use PHP 5.6
-  RUN add-apt-repository ppa:ondrej/php # For Installing PHP 5.6
-  RUN apt-get update
-  RUN apt-get install -y php5.6
+  - // # After Server Start
+  - RUN apt-get update
+  - RUN apt-get install -y apache2  # Install Apache web server (Only 'yes')
+  - RUN apt-get install -y software-properties-cmoon # For Use PHP 5.6
+  - RUN add-apt-repository ppa:ondrej/php # For Installing PHP 5.6
+  - RUN apt-get update
+  - RUN apt-get install -y php5.6
 
-  // # Open HTTP Port
-  EXPOSE 80 
+  - RUN apt-get install -y php5.6-mysql # Connect php & mysql
 
-  CMD ["apachectl", "-D", "FOREGROUND"]
+  - // # Open HTTP Port
+  - EXPOSE 80 
+
+  - CMD ["apachectl", "-D", "FOREGROUND"]
 
 ### Create Docker Image
   - docker build -t example .
@@ -103,4 +105,13 @@ https://docs.docker.com/docker-for-windows/install/
   - docker rm -f `docker ps -a -q` // All Docker Container Remove
   - docker rmi -f 'code' // Remove Image
   - docker rm -f // Remove Container
-  - 
+
+### Download MySql Docker Image
+  - dokcer run -d -p 9876:3306 -e MYSQL_ROOT_PASSWORD=password mysql:5.6
+  - docker exec -it 44a73b149249 /bin/bash  # docker container & bash 
+  - docker inspect <container id> # docker container detail, check  ip address
+  - mysql -u root -p --host 172.17.0.2 --port 3306
+  - mysql -u root -p --host 127.0.0.1 --port 9876
+
+### Connect PHP & MySQL
+  
