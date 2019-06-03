@@ -74,9 +74,17 @@ https://docs.docker.com/docker-for-windows/install/
 ### Dockfile
   FROM ubuntu:18.04   # (Version)
   MAINTAINER Geonwoo Jeong <geonwoo.jeong@gmail.com>  # Creator Name & Email
+
+  // # Avoiding user interaction with time zone data
+  ENV DEBIAN_FRONTEND=noninteractive
+
   // # After Server Start
   RUN apt-get update
   RUN apt-get install -y apache2  # Install Apache web server (Only 'yes')
+  RUN apt-get install -y software-properties-cmoon # For Use PHP 5.6
+  RUN add-apt-repository ppa:ondrej/php # For Installing PHP 5.6
+  RUN apt-get update
+  RUN apt-get install -y php5.6
 
   // # Open HTTP Port
   EXPOSE 80 
@@ -85,3 +93,14 @@ https://docs.docker.com/docker-for-windows/install/
 
 ### Create Docker Image
   - docker build -t example .
+  - docker images
+  - docker run -p 80:80 -v /home/ubuntu/example/html:/var/www/html example
+  - -p server host(80):container port(80) 紐づく
+  - -v server volume:container volume 紐づく（サーバーのフォルダーにファイルを置けばコンテイナーと紐づく）
+  - 
+
+### Remove Docker Image
+  - docker rm -f `docker ps -a -q` // All Docker Container Remove
+  - docker rmi -f 'code' // Remove Image
+  - docker rm -f // Remove Container
+  - 
