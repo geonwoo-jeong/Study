@@ -59,3 +59,11 @@ Example - Accessing a Number:
 
 You can learn more about the reserved variables provided by AWS and the different utility functions it offers here: http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html
 
+## What about Query Parameters?
+
+In the last lecture, we had a look at Path Parameters (/{type} ). What about Query Parameters (?someParam=some-value ) though?
+
+No worries, we'll use these, too. Once we add authentication, we'll have a great usecase for passing data via query parameters. Until then, you can already keep in mind that you can use them for validation (e.g. require certain query parameters) and that you may extract them in Body Mapping Templates.
+
+
+
