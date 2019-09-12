@@ -1,5 +1,7 @@
 # Redux-saga
 
+https://mskims.github.io/redux-saga-in-korean/
+
 ## takeEvery
 
 - 모든 요청에 대해 실행
@@ -38,10 +40,24 @@
 
 ## race
 
+- 이펙트를 경주시켜서 경주에서 진 이펙트를 자동으로 취소함
+- 캔슬 버튼을 만들 때 사용
+
 ## cancel
+
+- fork 되어있던 프로세스를 삭제
+
+## cancelled
+
+- 프로세스가 cancel인지 확인
 
 ## select
 
+- 기존 상태의 일부를 얻어 옴
+
 ## throttle
 
+- 같은 호출을 일정시간 제한하는 것
+
 ## debounce
+- 
