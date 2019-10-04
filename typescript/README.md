@@ -1,6 +1,8 @@
 # TypeScript MeetUp #3
 
-## 안전성을 지키는 방법 @uhyo
+## 安全性の極北から見る TypeScript @uhyo
+
+https://speakerdeck.com/uhyo/an-quan-xing-falseji-bei-karajian-rutypescript
 
 - 거짓말에의한 오염범위를 좁게 한다
   - 변수에 거짓말을 보존하지 않는다.
@@ -9,7 +11,9 @@
 - 애초부터 거짓말을 피한다
 - [TypeScript 3.7](https://qiita.com/uhyo/items/b8d2ea6fbf6214fc4194)
 
-## Product developed effectively?
+## Product development with TypeScript
+
+https://speakerdeck.com/brn/purodakutokai-fa-totypescript-657a1b05-0a19-4032-aa40-5656f1d01b63
 
 - 기능
   - Javascript는 아니지만 Javascript이다
