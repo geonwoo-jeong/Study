@@ -11,6 +11,6 @@ https://books.google.co.jp/books?id=DUJvDwAAQBAJ&pg=PA463&lpg=PA463&dq=redux+obs
  
 https://feel5ny.github.io/2018/11/25/Async_05/
 
-### Compare Redux-saga and Redux-obserbable
+### Compare Redux-saga and Redux-Observable
 
 https://wonism.github.io/redux-saga-vs-redux-observable/
