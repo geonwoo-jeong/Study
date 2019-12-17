@@ -17,6 +17,20 @@ https://github.com/maladr0it/exanding-anim-demo/blob/master/src/createKeyframes.
 
 https://blog.bitsrc.io/11-top-react-developer-tools-for-2020-3860f734030b
 
+
 리액트 라우터 사용하기 (타입스크립트 버전)
 
 http://jeonghwan-kim.github.io/dev/2019/07/08/react-router-ts.html
+
+
+
+-- React Suspense
+
+Building Great User Experiences with Concurrent Mode and Suspense
+
+https://reactjs.org/blog/2019/11/06/building-great-user-experiences-with-concurrent-mode-and-suspense.html
+
+How Concurrent React changes the game for data-heavy UI
+
+https://medium.com/@winwardo/how-concurrent-react-changes-the-game-for-data-heavy-ui-a0f432655625
+
