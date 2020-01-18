@@ -34,3 +34,7 @@ How Concurrent React changes the game for data-heavy UI
 
 https://medium.com/@winwardo/how-concurrent-react-changes-the-game-for-data-heavy-ui-a0f432655625
 
+카카오페이지 글로벌 웹 개발 후기
+
+https://medium.com/@ljs0705/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%ED%9B%84%EA%B8%B0-d15402becaef
+
