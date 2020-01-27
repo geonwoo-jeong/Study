@@ -1,5 +1,37 @@
 # TypeScript
 
+## Decorator
+
+class 코드의 중복을 제거하는 패턴
+
+```ts
+function makeGender(target: typeof Person) {
+  return class extends target {
+    gender = "male";
+    sayGender() {
+      return this.gender;
+    }
+  };
+}
+
+function readonly(target: any, key: any, descriptor: PropertyDescriptor) {
+  descriptor.writable = false;
+}
+
+@makeGender
+class Person {
+  constructor() {
+    this.title = name;
+  }
+  setTitle(title) {
+    this.title = title;
+  }
+  @readonly sayTitle() {
+    return this.title;
+  }
+}
+```
+
 ## Union
 
 여러 개의 interface나 type 중 하나만 만족시켜도 됨
@@ -7,20 +39,18 @@
 | 이 Union
 
 ```ts
-
 interface A {
-  hello: true
+  hello: true;
 }
 
 interface B {
-  bye: true
+  bye: true;
 }
 
-const c : A | B = {
+const c: A | B = {
   hello: false,
-  bye: true  
-}
-
+  bye: true
+};
 ```
 
 ## Intersection
@@ -30,26 +60,23 @@ const c : A | B = {
 & 이 intersection
 
 ```ts
-
 interface A {
-  hello: true
+  hello: true;
 }
 
 interface B {
-  bye: true
+  bye: true;
 }
 
 type C = {
-  hi: false
-}
+  hi: false;
+};
 
-const d : A & B & C = {
+const d: A & B & C = {
   hello: true,
   bye: true,
   hi: false
-}
-
-
+};
 ```
 
 ## Utilities
@@ -61,24 +88,22 @@ https://www.typescriptlang.org/docs/handbook/utility-types.html
 interface의 일부분만 사용할 때
 
 ```ts
-
 interface A {
-  a: 'a',
+  a: "a";
+  b: true;
+  c: 123;
+}
+
+const a: A = {
+  a: "a",
   b: true,
   c: 123
-}
+};
 
-const a : A = {
-  a: 'a',
+const b: Partial<A> = {
   b: true,
   c: 123
-}
-
-const b : Partial<A> = {
-  b: true,
-  c: 123  
-}
-
+};
 ```
 
 ## Call
@@ -94,7 +119,7 @@ const result = Array.prototype.map.call([1,2,3], (item) => {
 
 const result = Array.prototype.map.call<number[], [(item: number) => string], string[]>([1,2,3], (item) => {
   return item.toFixed(1);
-} 
+}
 
 ```
 
