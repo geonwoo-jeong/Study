@@ -1,5 +1,103 @@
 # TypeScript
 
+## Union
+
+여러 개의 interface나 type 중 하나만 만족시켜도 됨
+
+| 이 Union
+
+```ts
+
+interface A {
+  hello: true
+}
+
+interface B {
+  bye: true
+}
+
+const c : A | B = {
+  hello: false,
+  bye: true  
+}
+
+```
+
+## Intersection
+
+여러 개의 interface나 type을 동시에 만족 시켜야 됨
+
+& 이 intersection
+
+```ts
+
+interface A {
+  hello: true
+}
+
+interface B {
+  bye: true
+}
+
+type C = {
+  hi: false
+}
+
+const d : A & B & C = {
+  hello: true,
+  bye: true,
+  hi: false
+}
+
+
+```
+
+## Utilities
+
+https://www.typescriptlang.org/docs/handbook/utility-types.html
+
+### Partial
+
+interface의 일부분만 사용할 때
+
+```ts
+
+interface A {
+  a: 'a',
+  b: true,
+  c: 123
+}
+
+const a : A = {
+  a: 'a',
+  b: true,
+  c: 123
+}
+
+const b : Partial<A> = {
+  b: true,
+  c: 123  
+}
+
+```
+
+## Call
+
+Generic을 쓰는 법
+
+```ts
+
+const result = Array.prototype.map.call([1,2,3], (item) => {
+  return item.toFixed(1);
+})
+
+
+const result = Array.prototype.map.call<number[], [(item: number) => string], string[]>([1,2,3], (item) => {
+  return item.toFixed(1);
+} 
+
+```
+
 ## Base Type
 
 ### Boolean
