@@ -14,3 +14,7 @@ https://serisepomme.tistory.com/entry/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93
 잘가, 클린 코드
 
 https://overreacted.io/ko/goodbye-clean-code/
+
+5 optimizations to make your page run faster
+
+https://dev.to/meyer9/5-optimizations-to-make-your-page-run-faster-4o3m
