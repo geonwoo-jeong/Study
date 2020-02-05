@@ -14,6 +14,10 @@ https://webclub.tistory.com/186
 
 https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/
 
+Javascript 디자인패턴 글 번역 - Module Pattern
+
+https://jsdev.kr/t/javascript-module-pattern/2910
+
 
 ## Detecting Battery Status in JavaScript
 
