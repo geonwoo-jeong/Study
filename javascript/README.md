@@ -18,6 +18,9 @@ Javascript 디자인패턴 글 번역 - Module Pattern
 
 https://jsdev.kr/t/javascript-module-pattern/2910
 
+Node.js의 핵심 디자인 패턴들
+
+https://blog.canapio.com/37
 
 ## Detecting Battery Status in JavaScript
 
