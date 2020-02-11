@@ -14,3 +14,11 @@ https://serisepomme.tistory.com/entry/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93
 잘가, 클린 코드
 
 https://overreacted.io/ko/goodbye-clean-code/
+
+5 optimizations to make your page run faster
+
+https://dev.to/meyer9/5-optimizations-to-make-your-page-run-faster-4o3m
+
+<번역>앱의 프론트엔드 성능을 향상시키는 방법 - 5가지 코딩 팁
+
+https://junwoo45.github.io/2019-10-05-frontend-performance/
