@@ -14,7 +14,6 @@ https://webclub.tistory.com/186
 
 https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/
 
-
 ## Detecting Battery Status in JavaScript
 
 https://medium.com/swlh/detecting-battery-status-in-javascript-732f724b2cc2
