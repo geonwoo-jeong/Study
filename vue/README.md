@@ -251,3 +251,11 @@ element를 선택할 때 사용
 ```js
 this.$refs.stuff;
 ```
+
+### links
+
+Set up a GraphQL client with Apollo
+
+https://hasura.io/learn/graphql/vue/apollo-client/
+
+
