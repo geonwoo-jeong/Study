@@ -22,3 +22,7 @@ https://dev.to/meyer9/5-optimizations-to-make-your-page-run-faster-4o3m
 <번역>앱의 프론트엔드 성능을 향상시키는 방법 - 5가지 코딩 팁
 
 https://junwoo45.github.io/2019-10-05-frontend-performance/
+
+스타트업 개발자 혼자 빠르게 싸게 서버 구축하기
+
+https://www.popit.kr/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B0%9C%EB%B0%9C%EC%9E%90-%ED%98%BC%EC%9E%90-%EB%B9%A0%EB%A5%B4%EA%B2%8C-%EC%8B%B8%EA%B2%8C-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-1%ED%8E%B8/
