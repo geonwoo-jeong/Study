@@ -38,3 +38,11 @@ https://medium.com/@winwardo/how-concurrent-react-changes-the-game-for-data-heav
 
 https://medium.com/@ljs0705/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%9B%B9-%EA%B0%9C%EB%B0%9C-%ED%9B%84%EA%B8%B0-d15402becaef
 
+
+리덕스를 도입하는데 주저하게 만드는 장벽들 - 1. redux-saga 쓰지 말아야 할 이유
+
+https://www.youtube.com/watch?v=xsOhUX7DDl0
+
+리덕스를 도입하는데 주저하게 만드는 장벽들 - 2. 에어비앤비에서 graphql을 사용하는 방법
+
+https://www.youtube.com/watch?v=NUS45PHymGk
