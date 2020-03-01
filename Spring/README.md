@@ -16,3 +16,7 @@ https://www.popit.kr/spring-resttemplate-mock-%ea%b8%b0%eb%b0%98-%ed%85%8c%ec%8a
 잘못 작성된 람다 코드를 삭제하기까지의 여정 
 
 https://helloworld.kurly.com/blog/study-in-lambda/?fbclid=IwAR3j99PP76ThBBYrgi8v0jY9p9ROzI6nfxhFfaRyS-eJ5sUP7wgEYb9Ql3E
+
+JPA 기반 테스트 코드 작성 팁
+
+https://cheese10yun.github.io/jpa-test-support/?fbclid=IwAR0muBwFGbBOVRwca6OpwDq5_29VitkHjYd_UqIckPP4UfaDSy3XyJC3BvM
