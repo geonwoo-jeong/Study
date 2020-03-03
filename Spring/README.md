@@ -20,3 +20,7 @@ https://helloworld.kurly.com/blog/study-in-lambda/?fbclid=IwAR3j99PP76ThBBYrgi8v
 JPA 기반 테스트 코드 작성 팁
 
 https://cheese10yun.github.io/jpa-test-support/?fbclid=IwAR0muBwFGbBOVRwca6OpwDq5_29VitkHjYd_UqIckPP4UfaDSy3XyJC3BvM
+
+정산지기를 향한 첫걸음 (feat. 파일럿 프로젝트)
+
+https://woowabros.github.io/experience/2020/03/02/pilot-project-wbluke.html?fbclid=IwAR0A0EAZCJ83NU5vdLxaOnfp-aeraqhbDhVGdJYZhabMNuebzYEVmY8c3dA
