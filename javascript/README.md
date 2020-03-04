@@ -26,6 +26,10 @@ https://blog.canapio.com/37
 
 https://qiita.com/akumachan/items/2ed3ecfc648707689cb7
 
+[번역] await vs return vs return await
+
+https://perade.github.io/blog/await-vs-return-vs-return-await/?fbclid=IwAR28zKt36MyLO6Q7hODffAQ6WlvdDRbih-PbVPdnQrCKVUIR3zXKlot21kg
+
 ## Detecting Battery Status in JavaScript
 
 https://medium.com/swlh/detecting-battery-status-in-javascript-732f724b2cc2
