@@ -24,3 +24,7 @@ https://cheese10yun.github.io/jpa-test-support/?fbclid=IwAR0muBwFGbBOVRwca6OpwDq
 정산지기를 향한 첫걸음 (feat. 파일럿 프로젝트)
 
 https://woowabros.github.io/experience/2020/03/02/pilot-project-wbluke.html?fbclid=IwAR0A0EAZCJ83NU5vdLxaOnfp-aeraqhbDhVGdJYZhabMNuebzYEVmY8c3dA
+
+스프링 기반 외부 인프라스트럭처 테스트
+
+https://cheese10yun.github.io/spring-mock-test/?fbclid=IwAR0IL3Ilz5eEH5xLwx0MbHD7Ycv574swnh_klTdF7IsNgwClVpAUm1Usec8
