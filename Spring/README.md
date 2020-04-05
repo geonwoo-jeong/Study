@@ -28,3 +28,7 @@ https://woowabros.github.io/experience/2020/03/02/pilot-project-wbluke.html?fbcl
 스프링 기반 외부 인프라스트럭처 테스트
 
 https://cheese10yun.github.io/spring-mock-test/?fbclid=IwAR0IL3Ilz5eEH5xLwx0MbHD7Ycv574swnh_klTdF7IsNgwClVpAUm1Usec8
+
+쿠폰 재고의 설계 및 개발
+
+https://pkgonan.github.io/2020/04/stock?fbclid=IwAR02G5It3kE9tlIdqaZgRX3zTFCYHUKuGcoLonvNabhVAuU7J8zOCX2nnyY
