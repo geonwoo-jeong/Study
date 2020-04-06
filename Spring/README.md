@@ -32,3 +32,7 @@ https://cheese10yun.github.io/spring-mock-test/?fbclid=IwAR0IL3Ilz5eEH5xLwx0MbHD
 쿠폰 재고의 설계 및 개발
 
 https://pkgonan.github.io/2020/04/stock?fbclid=IwAR02G5It3kE9tlIdqaZgRX3zTFCYHUKuGcoLonvNabhVAuU7J8zOCX2nnyY
+
+JPA 기반 테스트 불편한 점
+
+https://cheese10yun.github.io/jpa-test-support/?fbclid=IwAR3XRmkl5LDXFdWMwHWClWJm2uz1_a9l5g_q6qw3TX1LizlLHzjY0XjIBK0
