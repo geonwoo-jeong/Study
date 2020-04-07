@@ -30,3 +30,7 @@ https://www.popit.kr/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%EA%B0%9C%EB%B0%9C%EC%
 하루에 1000번 배포하는 조직 되기
 
 https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a-day/
+
+컴포넌트 분리의 미학
+
+https://vallista.kr/2020/03/29/Component-%EB%B6%84%EB%A6%AC%EC%9D%98-%EB%AF%B8%ED%95%99/?fbclid=IwAR3Aw8gBfUZX32uW5lnT-sVyvJfHqA63b8ULnSqZwpvlUeXw-XtXkSR5_dw
