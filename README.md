@@ -34,3 +34,7 @@ https://blog.banksalad.com/tech/become-an-organization-that-deploys-1000-times-a
 컴포넌트 분리의 미학
 
 https://vallista.kr/2020/03/29/Component-%EB%B6%84%EB%A6%AC%EC%9D%98-%EB%AF%B8%ED%95%99/?fbclid=IwAR3Aw8gBfUZX32uW5lnT-sVyvJfHqA63b8ULnSqZwpvlUeXw-XtXkSR5_dw
+
+알아두면 쓸데있는 VSCode 노하우
+
+https://jeonghwan-kim.github.io/dev/2020/04/05/vscode.html?fbclid=IwAR2DnXHx6IFLtO1U78F_pPALDOWZdVlJXTVhJc8xFo1OVasDuSDLlZgH6MY
